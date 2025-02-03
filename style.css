@@ -21,6 +21,7 @@ header{
     flex-direction: row;
     margin-left: 10%;
     width: 100%;
+     align-item:center;
     justify-content: space-between;
 }
 
