@@ -209,9 +209,40 @@ form  #btn-primary{
 }
 
 
-@media screen and(max-width:600px) {
-    p{
-        color: red;
+/* Responive media query */
+@media screen and (max-width: 800px) {
+    *{
+        height: auto;
     }
+
+    .header{
+        font-size: small;
+    }
+
+    .header .name{
+        font-size: smaller;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body .body{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .body .left-part{
+        width: 100%;
+        height: auto;
+    }
+
+    .body .content{
+        width: 100%;
+        overflow-y: none;
+    }
+
+    #contact form{
+        width: 100%;
+    }
+
 }
 
