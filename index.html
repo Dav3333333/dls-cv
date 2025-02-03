@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css"/>
+	<title>Mon Curriculum vitae</title>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="name">
+				<h1>David Lus</h1>
+			</div>
+			<nav>
+				<a class="menu menu-clicked" href="#about_me">A propos de moi</a>
+				<a class="menu" href="#studies">Etude faite</a>
+				<a class="menu" href="#Carriere">Cariere</a>
+				<a class="menu" href="#passion">Mes Passion</a>
+				<a class="menu" href="#contact">Me contacter</a>
+			</nav>
+		</div>
+	</header>
+
+	<div class="body">
+
+		<aside class="left-part">
+			<div class="identity">
+				<img class="identity-image" src="./assets/david.jpg" alt="">
+				<h2 class="identity-name">DAVID LUSENGE OSWALDE</h2>
+			</div>
+
+			<div class="contact-container">
+				<h2>Contacts</h2>
+				<div class="contact">
+					<!-- mail contact -->
+					<img src="./assets/gmail.png" alt="icon" class="contact-icon">
+					<span class="contact-content"><a href="mailto:davidlusenge7@gmail.com">davidlusenge7@gmail.com</a></span>
+				</div>
+				<div class="contact">
+					<!-- whatsapp contact -->
+					<img src="./assets/whatsapp.png" alt="icon" class="contact-icon">
+					<span class="contact-content">+243 974 385 673</span>
+				</div>
+				<div class="contact">
+					<!-- twitter(X) contact -->
+					<img src="./assets/sociale.png" alt="icon" class="contact-icon">
+					<span class="contact-content">david lusenge</span>
+				</div>
+			</div>
+
+		</aside>
+		
+		<div class="content">
+
+			<div class="bloc" id="about_me">
+				<h2 class="bloc_title hashing">A propos de moi</h2>
+				<p class="bloc_content">
+					Je suis David Lusenge oswalde etudiant a l'université Chretienne Billingue Du Congo
+					dans la faculte de science de technologie et de l'ingenieur precisement dans le departement de
+					genie informatique. Je suis fils de Junior LUSENGE et Masika Maneno Jeannette, et frère de 
+					Danny, Lea et Gloria.
+				</p>
+				<p class="bloc_content">
+					Je suis developpeur web fullstack et mobile utilisant plus les technologies recente dans la Programmation
+					comme la bibliotheque Reat je JavaScript, la Bibliotheque Flet pour Python. 
+				</p>
+				<p class="bloc_content">
+					En plus, a part ces technologies, j'utilise certains langages programmation pour faire du backend entre autre
+					le JavaScript, le php, le java et un peu du python. 
+				</p>
+				<p class="bloc_content">
+					En fin, concernant mon experience veuiller visiter mon compte github en <a href="https://github.com">cliquant ce lien</a> 
+				</p>
+			</div>
+	
+			<div class="bloc" id="studies">
+				<h2 class="bloc_title">Parcours scoalire</h2>
+				<div class="bloc_content">
+					<h3>Etude primaire</h3>
+					<ul>
+						<li>2010 - 2016 : Parcours primaire à l'ecole CS le Bernardins</li>
+					</ul>
+				</div>
+
+				<div class="bloc_content">
+					<h3>Etude secondaire</h3>
+					<ul>
+						<li>2016 - 2018 : Cycle d'orientation à l'institut Mukulya Beni</li>
+						<li>2018-2022 : Continuite en commerciale et gestion a l'institut Bungulu Beni</li>
+					</ul>
+				</div>
+
+				<div class="bloc_content">
+					<h3>Etude Universitaire</h3>
+					<ul>
+						<li>2023 à ces jours : Parcours encour a l'ucbc en genie informatique</li>
+					</ul>
+				</div>
+			</div>
+	
+			<div class="bloc" id="Carriere">
+				<h2 class="bloc_title">Carriere</h2>
+				<ul class="bloc_content">
+					<li>Un developpeur des application web avec PHP, js html et css</li>
+					<li>Un developper des application desktop avec python</li>
+					<li>En ce jours je suis entrain de faire le mobile avec js en passant par le React Native</li>
+				</ul>
+			</div>
+		
+			<div class="bloc" id="passion">
+				<h2 class="bloc_title">Passion</h2>
+				<ol class="bloc_content">
+					<li>Lecture bilbique</li>
+					<li>Programmation</li>
+					<li>Gamming</li>
+					<li>Jouer aux instruments musicaux</li>
+				</ol>
+			</div>
+	
+			<div class="bloc" id="contact">
+				<h2 class="bloc_title">Laissez moi un message</h2>
+				<form action="" method="get" class="bloc_content">
+					<input type="text" name="name" id="name" placeholder="Entrer votre nom" required>
+					<input type="email" name="email" id="email" placeholder="Entrer votre mail" required>
+					<textarea name="message" id="message" placeholder="Entrer votre message" required></textarea>
+					<input id="btn-primary" type="submit" value="Envoyer">
+				</form>
+			</div>
+
+			<footer>
+				<p>@dls dev, tout droit reserve</p>
+			</footer>
+		</div>
+	</div>
+	<script src="./app.js"></script>
+</body>
